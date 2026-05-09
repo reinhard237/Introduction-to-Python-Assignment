@@ -7,13 +7,13 @@ staff_url = "https://raw.githubusercontent.com/reinhard237/Introduction-to-Pytho
 staff_content = requests.get(staff_url)
 print(staff_content.status_code)
 
-#To get data, we use .json() method
+#To get data, I used .json() method
 staff_data = staff_content.json()
 print(staff_data)
 type(staff_data)
 print(type(staff_data))
 
-#To slice the data, we use pandas library; I want to slice the first 100 records and display the records.
+#To slice the data, I used pandas library; I want to slice the first 100 records and display the records.
 staff_df = pd.DataFrame(staff_data)
 print(staff_df.head(100))
 sample_df_100 = staff_df.head(100)
