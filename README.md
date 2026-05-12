@@ -91,3 +91,33 @@ Successfully:
 -displayed the first 100 records.
 -exported the processed data into a CSV file.
 -documented the complete workflow using GitHub and VS Code.
+
+# DummyJSON API Data Project
+
+## Overview
+This project demonstrates how to extract data from a public API using Python.
+
+## Tools Used
+- Python
+- Requests library
+- Pandas
+
+## APIs Used
+- Products: https://dummyjson.com/products
+- Carts: https://dummyjson.com/carts
+
+## Process
+Step 1. Sent API requests using `requests.get()`
+Step 2. Extracted JSON data
+Step 3. Converted data into Pandas DataFrames
+Step 4. Exported results to CSV files
+
+## Output Files
+- products_data.csv
+- carts_data.csv
+
+## Skills Demonstrated
+- API integration
+- JSON parsing
+- Data transformation
+- Data export using Pandas
